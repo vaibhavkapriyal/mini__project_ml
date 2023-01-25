@@ -53,7 +53,7 @@ y_test = test[["prognosis"]]
 np.ravel(y_test)
 
 # TRAINING DATA
-train=pd.read_csv("https://raw.githubusercontent.com/vaibhavkapriyal/mini__project_ml/main/mini_project_disease_prediction-main/mini_project_disease_predictiction_ML/testing.csv")
+train=pd.read_csv("https://raw.githubusercontent.com/vaibhavkapriyal/mini__project_ml/main/mini_project_disease_prediction-main/mini_project_disease_predictiction_ML/training.csv")
 
 train.replace({'prognosis':{'Fungal infection':0,'Allergy':1,'GERD':2,'Chronic cholestasis':3,'Drug Reaction':4,
 'Peptic ulcer diseae':5,'AIDS':6,'Diabetes ':7,'Gastroenteritis':8,'Bronchial Asthma':9,'Hypertension ':10,
