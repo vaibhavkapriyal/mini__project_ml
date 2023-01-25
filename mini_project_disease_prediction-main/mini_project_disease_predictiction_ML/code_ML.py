@@ -127,65 +127,65 @@ Symptom5.set(None)
 
 #GUI part 
 
-w2 = Label(shivamGUI, justify=LEFT, text=" Disease Prediction Based on Symptoms ",bg="red",fg="yellow")
+w2 = Label(vaibhavGUI, justify=LEFT, text=" Disease Prediction Based on Symptoms ",bg="red",fg="yellow")
 w2.config(font=("Arial Bold", 32))
 w2.grid(row=1, column=1, columnspan=2, padx=100)
 
-NameLb1 = Label(shivamGUI, text="")
+NameLb1 = Label(vaibhavGUI, text="")
 NameLb1.config(font=("Elephant", 20))
 NameLb1.grid(row=5, column=1, pady=10,  sticky=W)
 
-S1 = Label(shivamGUI,  text="Symptom 1",fg="green")
+S1 = Label(vaibhavGUI,  text="Symptom 1",fg="green")
 S1.config(font=("Elephant", 15))
 S1.grid(row=7, column=1, pady=10 , sticky=W)
 
-S2 = Label(shivamGUI,  text="Symptom 2",fg="green")
+S2 = Label(vaibhavGUI,  text="Symptom 2",fg="green")
 S2.config(font=("Elephant", 15))
 S2.grid(row=8, column=1, pady=10, sticky=W)
 
-S3 = Label(shivamGUI,  text="Symptom 3",fg="green")
+S3 = Label(vaibhavGUI,  text="Symptom 3",fg="green")
 S3.config(font=("Elephant", 15))
 S3.grid(row=9, column=1, pady=10, sticky=W)
 
-S4 = Label(shivamGUI,  text="Symptom 4",fg="green")
+S4 = Label(vaibhavGUI,  text="Symptom 4",fg="green")
 S4.config(font=("Elephant", 15))
 S4.grid(row=10, column=1, pady=10, sticky=W)
 
-S5 = Label(shivamGUI,  text="Symptom 5",fg="green")
+S5 = Label(vaibhavGUI,  text="Symptom 5",fg="green")
 S5.config(font=("Elephant", 15))
 S5.grid(row=11, column=1, pady=10, sticky=W)
 
-lr = Button(shivamGUI, text="TAP TO PREDICT DISEASE",height=2, width=30, command=message)
+lr = Button(vaibhavGUI, text="TAP TO PREDICT DISEASE",height=2, width=30, command=message)
 lr.config(font=("Elephant", 15),bg="yellow")
 lr.grid(row=15, column=1,pady=20)
 
 OPTIONS = sorted(l1)                       # puts options in list 1 in sorted order 
 
-S1En = OptionMenu(shivamGUI, Symptom1,*OPTIONS)
+S1En = OptionMenu(vaibhavGUI, Symptom1,*OPTIONS)
 S1En.grid(row=7, column=2)
 
-S2En = OptionMenu(shivamGUI, Symptom2,*OPTIONS)
+S2En = OptionMenu(vaibhavGUI, Symptom2,*OPTIONS)
 S2En.grid(row=8, column=2)
 
-S3En = OptionMenu(shivamGUI, Symptom3,*OPTIONS)
+S3En = OptionMenu(vaibhavGUI, Symptom3,*OPTIONS)
 S3En.grid(row=9, column=2)
 
-S4En = OptionMenu(shivamGUI, Symptom4,*OPTIONS)
+S4En = OptionMenu(vaibhavGUI, Symptom4,*OPTIONS)
 S4En.grid(row=10, column=2)
 
-S5En = OptionMenu(shivamGUI, Symptom5,*OPTIONS)
+S5En = OptionMenu(vaibhavGUI, Symptom5,*OPTIONS)
 S5En.grid(row=11, column=2)
 
-NameLb = Label(shivamGUI, text="")
+NameLb = Label(vaibhavGUI, text="")
 NameLb.config(font=("Elephant", 20))
 NameLb.grid(row=13, column=1, pady=10,  sticky=W)
 
-NameLb = Label(shivamGUI, text="")
+NameLb = Label(vaibhavGUI, text="")
 NameLb.config(font=("Elephant", 15))
 NameLb.grid(row=18, column=1, pady=10,  sticky=W)
 
-t3 = Text(shivamGUI, height=2, width=30,bg="grey")
+t3 = Text(vaibhavGUI, height=2, width=30,bg="grey")
 t3.config(font=("Elephant", 20))
 t3.grid(row=20, column=1 , padx=10)
 
-shivamGUI.mainloop()                             #program runs till you close the window
+vaibhavGUI.mainloop()                             #program runs till you close the window
